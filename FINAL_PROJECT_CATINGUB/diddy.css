@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+header {
+  background-image: url(images/tree.jpg);
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+
+section {
+  
+  padding: 30px;
+  margin: 30px auto;
+  max-width: 800px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+}
+
+section:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+  color: #4CAF50;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+
+.cta-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
+
+.sprite-img {
+  
+  background-position: 0 0;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin-right: 20px;
+  transition: background-position 0.3s ease;
+}
+
+
+.sprite-img:hover {
+  background-position: 0 -100px; 
+}
+
+
+.donate {
+  text-align: center;
+  padding: 50px 20px;
+  margin: 30px auto;
+  max-width: 800px;
+  background-color: #e0f7e0;
+  border-radius: 8px;
+}
+
+.donate h2 {
+  color: #4CAF50;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.donate p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
